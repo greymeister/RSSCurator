@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>{{ feed["channel"]["title"] }}</title>
+        <description>{{ feed["channel"]["description"] }}</description>
+        <link>{{ feed["channel"]["link"] }}</link>
+        {% for entry in entries %}
+        <item>
+            <title>{{ entry['title'] }}</title>
+            <link>{{ entry['link'] }}</link>
+            <comments>{{ entry['comments'] }}</comments>
+            <description><![CDATA[{{ entry['summary'] }}]]></description>
+        </item>
+        {% endfor %}
+    </channel>
+</rss>
+

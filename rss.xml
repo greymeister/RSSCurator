@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+	<channel>
+		<title>Hacker News</title>
+		<link>https://news.ycombinator.com/</link>
+		<description>Links for the intellectually curious, ranked by readers.</description>
+		<item>
+			<title>Modifying a DOCSIS 3.0 cable modem for high performance</title>
+			<link>http://www.usbjtag.com/vbforum/showthread.php?t=8259</link>
+			<comments>https://news.ycombinator.com/item?id=6351553</comments>
+			<description><![CDATA[<a href="https://news.ycombinator.com/item?id=6351553">Comments</a>]]></description>
+		</item>
+		<item>
+			<title>Probabilistic Programming &amp; Bayesian Methods for Hackers</title>
+			<link>http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/</link>
+			<comments>https://news.ycombinator.com/item?id=6351681</comments>
+			<description><![CDATA[<a href="https://news.ycombinator.com/item?id=6351681">Comments</a>]]></description>
+		</item>
+		<item>
+			<title>Hacker News All-Time Top Links  </title>
+			<link>http://lab.varun.io/hn_all_time_top_links/</link>
+			<comments>https://news.ycombinator.com/item?id=6351389</comments>
+			<description><![CDATA[<a href="https://news.ycombinator.com/item?id=6351389">Comments</a>]]></description>
+		</item>
+		<item>
+			<title>A Journalist-Agitator Facing Prison Over a Link</title>
+			<link>http://www.nytimes.com/2013/09/09/business/media/a-journalist-agitator-facing-prison-over-a-link.html</link>
+			<comments>https://news.ycombinator.com/item?id=6351724</comments>
+			<description><![CDATA[<a href="https://news.ycombinator.com/item?id=6351724">Comments</a>]]></description>
+		</item>
+		<item>
+			<title>How we got to $1,000 in recurring revenue</title>
+			<link>http://blog.idonethis.com/post/59489601294/how-we-got-to-1-000-in-recurring-revenue</link>
+			<comments>https://news.ycombinator.com/item?id=6351117</comments>
+			<description><![CDATA[<a href="https://news.ycombinator.com/item?id=6351117">Comments</a>]]></description>
+		</item>
+		<item>
+			<title>On Ansible</title>
+			<link>http://benscofield.com/on-ansible/</link>
+			<comments>https://news.ycombinator.com/item?id=6351144</comments>
+			<description><![CDATA[<a href="https://news.ycombinator.com/item?id=6351144">Comments</a>]]></description>
+		</item>
+		<item>
+			<title>Message threading (1997-2002)</title>
+			<link>http://www.jwz.org/doc/threading.html</link>
+			<comments>https://news.ycombinator.com/item?id=6350203</comments>
+			<description><![CDATA[<a href="https://news.ycombinator.com/item?id=6350203">Comments</a>]]></description>
+		</item>
+		<item>
+			<title>Poll: Do you prefer front end or back end work?</title>
+			<link>https://news.ycombinator.com/item?id=6351383</link>
+			<comments>https://news.ycombinator.com/item?id=6351383</comments>
+			<description><![CDATA[<a href="https://news.ycombinator.com/item?id=6351383">Comments</a>]]></description>
+		</item>
+		<item>
+			<title>ODesk vs Elance vs Freelancer vs Guru</title>
+			<link>http://blog.assembla.com/assemblablog/tabid/12618/bid/33608/Working-with-Talent-markets-oDesk-Elance-Freelancer-Guru-vWorker.aspx</link>
+			<comments>https://news.ycombinator.com/item?id=6350201</comments>
+			<description><![CDATA[<a href="https://news.ycombinator.com/item?id=6350201">Comments</a>]]></description>
+		</item>
+		<item>
+			<title>JPEG image glitching / corruption</title>
+			<link>http://snorpey.github.io/jpg-glitch/</link>
+			<comments>https://news.ycombinator.com/item?id=6349725</comments>
+			<description><![CDATA[<a href="https://news.ycombinator.com/item?id=6349725">Comments</a>]]></description>
+		</item>
+		<item>
+			<title>Thoughts on Intel's upcoming Software Guard Extensions (Part 1)</title>
+			<link>http://theinvisiblethings.blogspot.co.uk/2013/08/thoughts-on-intels-upcoming-software.html</link>
+			<comments>https://news.ycombinator.com/item?id=6350640</comments>
+			<description><![CDATA[<a href="https://news.ycombinator.com/item?id=6350640">Comments</a>]]></description>
+		</item>
+		<item>
+			<title>Theranos</title>
+			<link>http://www.theranos.com</link>
+			<comments>https://news.ycombinator.com/item?id=6349349</comments>
+			<description><![CDATA[<a href="https://news.ycombinator.com/item?id=6349349">Comments</a>]]></description>
+		</item>
+		<item>
+			<title>Solving Rubik's cube from scratch, in python</title>
+			<link>http://fulmicoton.com/posts/rubix/</link>
+			<comments>https://news.ycombinator.com/item?id=6350849</comments>
+			<description><![CDATA[<a href="https://news.ycombinator.com/item?id=6350849">Comments</a>]]></description>
+		</item>
+		<item>
+			<title>How to Go From Google Engineer to First-Time CTO</title>
+			<link>http://firstround.com/article/How-to-Go-From-Google-Engineer-to-First-Time-CTO#!</link>
+			<comments>https://news.ycombinator.com/item?id=6350935</comments>
+			<description><![CDATA[<a href="https://news.ycombinator.com/item?id=6350935">Comments</a>]]></description>
+		</item>
+		<item>
+			<title>Quark: A secure Web Browser with a Formally Verified Kernel</title>
+			<link>http://goto.ucsd.edu/quark/</link>
+			<comments>https://news.ycombinator.com/item?id=6348532</comments>
+			<description><![CDATA[<a href="https://news.ycombinator.com/item?id=6348532">Comments</a>]]></description>
+		</item>
+		<item>
+			<title>Startup Ideas Every Nerd Has (That Never Work)</title>
+			<link>http://swombat.com/2010/11/30/no-new-ideas</link>
+			<comments>https://news.ycombinator.com/item?id=6349347</comments>
+			<description><![CDATA[<a href="https://news.ycombinator.com/item?id=6349347">Comments</a>]]></description>
+		</item>
+		<item>
+			<title>Worries That Microsoft Is Too Tricky to Manage</title>
+			<link>http://www.nytimes.com/2013/09/09/technology/worries-that-microsoft-is-growing-too-tricky-to-manage.html?hp</link>
+			<comments>https://news.ycombinator.com/item?id=6351530</comments>
+			<description><![CDATA[<a href="https://news.ycombinator.com/item?id=6351530">Comments</a>]]></description>
+		</item>
+		<item>
+			<title>Why cards are the future of the web </title>
+			<link>http://www.insideintercom.io/why-cards-are-the-future-of-the-web/</link>
+			<comments>https://news.ycombinator.com/item?id=6349757</comments>
+			<description><![CDATA[<a href="https://news.ycombinator.com/item?id=6349757">Comments</a>]]></description>
+		</item>
+		<item>
+			<title>U.S. government spied on Brazil's Petrobras oil firm</title>
+			<link>http://www.reuters.com/article/2013/09/08/us-usa-security-snowden-petrobras-idUSBRE9870AD20130908</link>
+			<comments>https://news.ycombinator.com/item?id=6350061</comments>
+			<description><![CDATA[<a href="https://news.ycombinator.com/item?id=6350061">Comments</a>]]></description>
+		</item>
+		<item>
+			<title>Left with Nothing</title>
+			<link>http://www.washingtonpost.com/sf/investigative/2013/09/08/left-with-nothing/</link>
+			<comments>https://news.ycombinator.com/item?id=6349476</comments>
+			<description><![CDATA[<a href="https://news.ycombinator.com/item?id=6349476">Comments</a>]]></description>
+		</item>
+		<item>
+			<title>Everything you need to know about Strategy in 6 mins- solving prisoner's dilemma</title>
+			<link>http://ozeanmedia.com/political-consulting/political-strategy-master-lesson-in-6-minutes/</link>
+			<comments>https://news.ycombinator.com/item?id=6350919</comments>
+			<description><![CDATA[<a href="https://news.ycombinator.com/item?id=6350919">Comments</a>]]></description>
+		</item>
+		<item>
+			<title>TutorSpree (YC W11) shuts down</title>
+			<link>http://techcrunch.com/2013/09/08/tutorspree-shut-down/</link>
+			<comments>https://news.ycombinator.com/item?id=6350153</comments>
+			<description><![CDATA[<a href="https://news.ycombinator.com/item?id=6350153">Comments</a>]]></description>
+		</item>
+		<item>
+			<title>Technology is Heroin (2009)</title>
+			<link>http://www.whattofix.com/blog/archives/2009/02/technology-is-h.php</link>
+			<comments>https://news.ycombinator.com/item?id=6349447</comments>
+			<description><![CDATA[<a href="https://news.ycombinator.com/item?id=6349447">Comments</a>]]></description>
+		</item>
+		<item>
+			<title>Tractors Are Getting Smarter</title>
+			<link>http://money.cnn.com/2013/08/29/leadership/deere-sam-allen.pr.fortune/index.html</link>
+			<comments>https://news.ycombinator.com/item?id=6350838</comments>
+			<description><![CDATA[<a href="https://news.ycombinator.com/item?id=6350838">Comments</a>]]></description>
+		</item>
+		<item>
+			<title>Programmer's Day - 13 September</title>
+			<link>https://en.wikipedia.org/wiki/Programmers%27_Day</link>
+			<comments>https://news.ycombinator.com/item?id=6351509</comments>
+			<description><![CDATA[<a href="https://news.ycombinator.com/item?id=6351509">Comments</a>]]></description>
+		</item>
+		<item>
+			<title>Google speeding up end-to-end crypto between data centers worldwide</title>
+			<link>http://arstechnica.com/tech-policy/2013/09/google-speeding-up-end-to-end-crypto-between-data-centers-worldwide/</link>
+			<comments>https://news.ycombinator.com/item?id=6351741</comments>
+			<description><![CDATA[<a href="https://news.ycombinator.com/item?id=6351741">Comments</a>]]></description>
+		</item>
+		<item>
+			<title>Yahoo says U.S. sought data on 40,332 user accounts in 2013</title>
+			<link>http://www.washingtonpost.com/business/technology/yahoo-says-us-sought-data-on-40332-user-accounts-in-2013/2013/09/06/be304008-1718-11e3-804b-d3a1a3a18f2c_story.html</link>
+			<comments>https://news.ycombinator.com/item?id=6349307</comments>
+			<description><![CDATA[<a href="https://news.ycombinator.com/item?id=6349307">Comments</a>]]></description>
+		</item>
+		<item>
+			<title>Why I don't use a parser generator</title>
+			<link>http://mortoray.com/2012/07/20/why-i-dont-use-a-parser-generator/</link>
+			<comments>https://news.ycombinator.com/item?id=6350286</comments>
+			<description><![CDATA[<a href="https://news.ycombinator.com/item?id=6350286">Comments</a>]]></description>
+		</item>
+		<item>
+			<title>Proposal to Change the Default TLS Ciphersuites Offered by Browsers</title>
+			<link>http://briansmith.org/browser-ciphersuites-01.html</link>
+			<comments>https://news.ycombinator.com/item?id=6348468</comments>
+			<description><![CDATA[<a href="https://news.ycombinator.com/item?id=6348468">Comments</a>]]></description>
+		</item>
+		<item>
+			<title>Help build the next gen of BI at Chartio</title>
+			<link>http://chartio.com/jobs/ui-developer</link>
+			<comments>https://news.ycombinator.com/item?id=6351536</comments>
+			<description><![CDATA[<a href="https://news.ycombinator.com/item?id=6351536">Comments</a>]]></description>
+		</item>
+	</channel>
+</rss>
