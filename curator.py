@@ -1,10 +1,15 @@
 #!/usr/bin/env python
 
+import boto
 import datetime
 import feedparser
+import hashlib
+import os
 import sqlite3
 import sys
+import time
 
+from boto.s3.key import Key
 from jinja2 import Template
 
 # Data access object for Curator
@@ -75,6 +80,26 @@ class Curator:
     def __get_feed(self):
         return feedparser.parse( self.url )
 
+# Store Curated Feed in AWS S3 for self hosting
+class CuratorPublisher:
+    def __init__(self, feed_url):
+        self.url = feed_url
+
+    def publish_feed_to_s3(self, content):
+        if not boto.config.has_section('Credentials'): 
+            raise Exception("Boto configuration not found! Cannot Continue.")
+        s3 = boto.connect_s3()
+        bucket = s3.create_bucket(self.__generate_bucket_name())
+        k = Key(bucket)
+        k.key = self.url
+        k.set_contents_from_string(content,headers={'Content-Type': 'application/rss+xml'})
+        k.set_acl('public-read')
+        feed_url = k.generate_url(0, query_auth=False, force_http=True)
+        print "Your RSS Subscription is available at:\n%s" % feed_url 
+        
+    def __generate_bucket_name(self):
+        return  "curator%s" % hashlib.sha1(os.environ["USER"]).hexdigest()
+
 # Script Function
 def get_feed_url_from_args():
     return sys.argv[1]
@@ -87,5 +112,7 @@ if len(sys.argv) < 2:
 url = get_feed_url_from_args()
 curator = Curator(url)
 curator.curate()
-print curator.generate_template() 
+content = curator.generate_template() 
+publisher = CuratorPublisher(url)
+publisher.publish_feed_to_s3(content)
 

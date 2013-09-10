@@ -1,0 +1,8 @@
+# Edit and copy to /etc/boto.cfg or $HOME/.boto
+# See http://docs.pythonboto.org/en/latest/boto_config_tut.html for more options
+
+[Credentials]
+aws_access_key_id = <your_access_key_here>
+aws_secret_access_key = <your_secret_key_here>
+
+
