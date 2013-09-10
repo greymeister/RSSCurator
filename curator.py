@@ -86,7 +86,7 @@ class Curator:
         self.__calculate_unique_entries(entries)
 
     def generate_template(self):
-        with open('template.xml') as f:
+        with open('rss2_template.xml') as f:
             template = Template(f.read())
             output_text = template.render(feed=self.feed, entries=self.entries_to_keep)
         return output_text
