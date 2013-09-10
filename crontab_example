@@ -1,0 +1,1 @@
+27 * * * * /home/username/Dev/RSSCurator/run-curator.sh "https://news.ycombinator.com/rss" > /dev/null
