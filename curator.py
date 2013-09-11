@@ -5,6 +5,7 @@ import datetime
 import feedparser
 import hashlib
 import os
+import re
 import sqlite3
 import sys
 import time
@@ -95,12 +96,19 @@ class Curator:
         dao = CuratorDao()
         for i in range(len(entries)):
             entry = entries[i]
-            entry_url = entry[ 'link' ]
+            entry_url = self.__cleanup_link_url( entry[ 'link' ] )
             entry_already_exists = dao.entry_visited( entry_url )
             if entry_already_exists is None:
                 self.entries_to_keep.append(entry)
                 dao.mark_entry_visited( entry_url )
 
+    def __cleanup_link_url( self, url ):
+       m = re.search(r'/$', url )
+       if m is not None:
+           return url[:-1]
+       else:
+           return url
+    
     def __get_feed(self):
         return feedparser.parse( self.url )
 
