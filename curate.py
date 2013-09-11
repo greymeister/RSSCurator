@@ -3,7 +3,7 @@
 import os
 import sys
 
-from rsscurator import Curator
+from curator import Curator
 from curatorpublisher import CuratorPublisher
 
 def get_feed_url_from_args():
