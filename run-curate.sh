@@ -6,4 +6,4 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cd $DIR
 
 # Run script with first arg from STDIN
-./curator.py $1
+./curate.py $1
