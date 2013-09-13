@@ -11,10 +11,7 @@ class CuratorPublisher:
         self.url = feed_url
 
     def publish_feed_to_s3(self, content):
-        if not boto.config.has_section('Credentials'): 
-            raise Exception("Boto configuration not found! Cannot Continue.")
-        s3 = boto.connect_s3()
-        bucket = s3.create_bucket(self.__get_bucket_name())
+        bucket = self.__get_bucket() 
         k = Key(bucket)
         k.key = self.url
         k.set_contents_from_string(content,headers={'Content-Type': 'application/rss+xml'})
@@ -22,6 +19,12 @@ class CuratorPublisher:
         feed_url = k.generate_url(0, query_auth=False, force_http=True)
         print "Your RSS Subscription is available at:\n%s" % feed_url 
        
+    def __get_bucket(self): 
+        if not boto.config.has_section('Credentials'): 
+            raise Exception("Boto configuration not found! Cannot Continue.")
+        s3 = boto.connect_s3()
+        return s3.create_bucket(self.__get_bucket_name())
+ 
     def __get_bucket_name(self):
         dao = CuratorDao()
         bucket_name = dao.get_s3_bucket()
