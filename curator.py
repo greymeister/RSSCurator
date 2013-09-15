@@ -8,12 +8,13 @@ from curatordao import CuratorDao
 class Curator:
     def __init__(self, feed_url):
         self.url = feed_url
-        self.feed = self.__get_feed()
+        self.feed = None
         self.entries_to_keep = []
+        self.dao = CuratorDao()
 
     def curate(self):
-        feed = self.__get_feed()
-        entries = feed[ 'entries' ]
+        self.feed = self.__get_parsed_feed()
+        entries = self.feed[ 'entries' ]
         self.__calculate_unique_entries(entries)
 
     def generate_template(self):
@@ -23,14 +24,20 @@ class Curator:
         return output_text
 
     def __calculate_unique_entries( self, entries ):
-        dao = CuratorDao()
         for i in range(len(entries)):
-            entry = entries[i]
-            entry_url = self.__cleanup_link_url( entry[ 'link' ] )
-            entry_already_exists = dao.entry_visited( entry_url )
-            if entry_already_exists is None:
-                self.entries_to_keep.append(entry)
-                dao.mark_entry_visited( entry_url )
+            self.__add_entry_if_unique(entries[i])
+
+    def __add_entry_if_unique(self, entry):
+        entry_url = self.__cleanup_link_url( entry[ 'link' ] )
+        if self.__is_entry_unique( entry_url ) is True:
+            self.__mark_entry_visited( entry, entry_url )
+
+    def __is_entry_unique(self, entry_url):
+        return self.dao.entry_visited( entry_url ) == None
+
+    def __mark_entry_visited(self, entry, entry_url):
+        self.entries_to_keep.append( entry )
+        self.dao.mark_entry_visited( entry_url )
 
     def __cleanup_link_url( self, url ):
        m = re.search(r'/$', url )
@@ -39,5 +46,5 @@ class Curator:
        else:
            return url
     
-    def __get_feed(self):
+    def __get_parsed_feed(self):
         return feedparser.parse( self.url )
