@@ -3,7 +3,7 @@ RSSCurator
 
 Script for Curating an RSS Feed
 
-See [this](http://greymeister.net/blog/2013/09/15/getting-rid-of-duplicates-in-the-hacker-news-feed/) blog post for more information.
+See [this](http://greymeister.net/blog/2013/9/15/getting-rid-of-duplicates-in-the-hacker-news-feed.html) blog post for more information.
 
 ### boto configuration:
 
